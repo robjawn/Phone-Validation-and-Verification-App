@@ -46,9 +46,14 @@ function handleGetData(event) {
         $carrier.text(data.carrier)
         $type.text(data.type)
         $valid.text(data.valid)
+        if ($valid.text('true')) {
+            $valid.text('yes')
+        } else {
+            $valid.text('no')
+        }
     }, (error) => {
         console.log('Bad Request: ', error) 
-    } )
+    },)
 }
 
 
