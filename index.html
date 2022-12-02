@@ -15,20 +15,31 @@
             Phone Number Lookup 
         </h1>
         <form>
-            <label>Enter a Phone Number:
-                <input type="number"/>
-                <input type="submit"/>
+            <label>+1
+                <input type="tel" 
+                placeholder="Enter a Phone Number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required>
+                <input type="submit">
+                Format: 123-456-7890
             </label>
         </form>
     </header>
     <main>
-        <h3 id="format-int">International Format:</h3>
-        <h3 id ="format-loc">Local Format:</h3>
-        <h3 id="country">Country:</h3>
-        <h3 id="state">State:</h3>
-        <h3 id="carrier">Carrier:</h3>
-        <h3 id="type">Type:</h3>
-        <h3 id="valid">Valid:</h3>
+        <h3>International Format: <span id="format-int"></span>
+        </h3>
+        <h3>Local Format: <span id="format-loc"></span>
+        </h3>
+        <h3>Country: <span id="country"></span>
+        </h3>
+        <h3>State: <span id="state"></span>
+        </h3>
+        <h3>Carrier: <span id="carrier"></span>
+        </h3>
+        <h3>Type: <span id="type"></span>
+        </h3>
+        <h3>Valid: <span id="valid"></span>
+        </h3>
     </main>
     <div></div>
 </body>

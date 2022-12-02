@@ -25,7 +25,7 @@ const $carrier = $('#carrier')
 const $type = $('#type')
 const $valid = $('#valid')
 const $form = $('form')
-const $input =$('input[type="number"]')
+const $input =$('input[type="tel"]')
 
 //EVENT LISTENERS
 $form.on('submit', handleGetData)
@@ -39,16 +39,17 @@ function handleGetData(event) {
     $input.val('')
     $.ajax(URL+userInput).then((data) => {
         console.log(data)
-        $int.append(' ' + data.format.international)
-        $loc.append(' ' + data.format.local)
-        $country.append(' ' + data.country.name)
-        $state.append(' ' + data.location)
-        $carrier.append(' ' + data.carrier)
-        $type.append(' ' + data.type)
-        $valid.append(' ' + data.valid)
+        $int.text(data.format.international)
+        $loc.text(data.format.local)
+        $country.text(data.country.name)
+        $state.text(data.location)
+        $carrier.text(data.carrier)
+        $type.text(data.type)
+        $valid.text(data.valid)
     }, (error) => {
         console.log('Bad Request: ', error) 
     } )
 }
+
 
 handleGetData()
