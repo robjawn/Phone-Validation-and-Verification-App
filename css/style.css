@@ -21,19 +21,35 @@ body {
   background: var(--color-darkblue);
 }
 
+#title-text {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+#phone-number {
+  display: inline-flex;
+  padding: 0.75rem;
+  justify-content: center;
+  width: 10%;
+}
+
+#submit-button {
+  display: inline-flex;
+  padding: 0.75rem;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  border-radius: 2px;
+  cursor: pointer;
+  margin: auto;
+  font-family: inherit;
+}
+
+
 main {
   background: var(--color-darkblue-alpha);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
-
-#submit-button {
-  display: block;
-  width: 100%;
-  padding: 0.75rem;
-  background: var(--color-green);
-  color: inherit;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
