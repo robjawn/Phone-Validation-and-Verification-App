@@ -1,4 +1,4 @@
-# CallMeMaybe
+# Call Me Maybe
 
 A simple application displaying information for submitted phone numbers using a Phone Number Validation and Verification API.
 
