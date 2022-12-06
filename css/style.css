@@ -37,7 +37,7 @@ body::before {
   background-position: center;
 }
 
-#title-text {
+#title-text, #sub-text {
   text-align: center;
 }
 
@@ -51,6 +51,8 @@ form {
   justify-content: center;
   width: 10%;
   font-family: inherit;
+  border-radius: 5px;
+  border: solid white;
 }
 
 #submit-button {
@@ -58,7 +60,8 @@ form {
   padding: 0.75rem;
   background-color: var(--color-yellow);
   color: var(--color-white);
-  border-radius: 2px;
+  border-radius: 20px;
+  border: solid var(--color-yellow);
   cursor: pointer;
   margin: auto;
   font-family: inherit;
@@ -68,7 +71,7 @@ form {
 
 main {
   background: var(--color-darkblue-alpha);
-  padding: 2.5rem 0.625rem;
+  padding: 1rem 3rem;
   border-radius: 0.25rem;
   width: 18%;
   margin: auto;
