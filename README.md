@@ -1,8 +1,8 @@
-#CallMeMaybe
+# Call Me Maybe
 
 A simple application displaying information for submitted phone numbers using a Phone Number Validation and Verification API.
 
-##Technologies Used 
+## Technologies Used 
 
 * HTML 5
 * JavaScript
@@ -11,11 +11,11 @@ A simple application displaying information for submitted phone numbers using a 
 * Google Fonts
 * abstractapi Phone API
 
-##Screenshots
+## Screenshots
 --
 
-##Getting Started
+## Getting Started
 --
 
-##Future Enhancements
+## Future Enhancements
 
