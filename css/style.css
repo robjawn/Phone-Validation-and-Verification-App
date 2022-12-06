@@ -76,7 +76,8 @@ main {
   width: 18%;
   margin: auto;
   margin-top: 1rem;
-  color: var(--color-yellow)
+  color: var(--color-yellow);
+  border-radius: 10px;
 }
 
 .displayed-data {
