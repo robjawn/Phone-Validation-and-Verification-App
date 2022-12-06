@@ -12,8 +12,8 @@ A simple application displaying information for submitted phone numbers using a 
 * abstractapi Phone API
 
 ## Screenshots
-![screenshot 1](https://imgur.com/lh5QpkE)
-![screenshot 1](https://imgur.com/VBoD8ir)
+![screenshot 1](https://i.imgur.com/lh5QpkE.png)
+![screenshot 1](https://i.imgur.com/VBoD8ir.png)
 
 ## Getting Started
 [Click here](https://pages.git.generalassemb.ly/robert-johnson/Project-1-Phone/) to see the deployed app.
