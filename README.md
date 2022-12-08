@@ -16,7 +16,8 @@ A simple application displaying information for submitted phone numbers using a 
 ![screenshot 1](https://i.imgur.com/VBoD8ir.png)
 
 ## Getting Started
-[Click here](https://pages.git.generalassemb.ly/robert-johnson/Project-1-Phone/) to see the deployed app.
+[Click here](https://robjawn.github.io/Phone-Validation-and-Verification-App/) to see the deployed app.
 
 ## Future Enhancements
+* Ability to recognize phone numbers inputted in different formats than the one requested. 
 * The ability to see locations displayed on a geolocator/map.
